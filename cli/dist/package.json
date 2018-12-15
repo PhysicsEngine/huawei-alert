@@ -1,0 +1,36 @@
+{
+    "name": "huawei-alert-cli",
+    "version": "0.1.0",
+    "description": "CLI tool ",
+    "main": "./dist/index.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "build": "tsc",
+        "prepublishOnly": "npm run build"
+    },
+    "keywords": [
+        "Huawei"
+    ],
+    "files": [
+        "bin",
+        "dist",
+        "package.json"
+    ],
+    "author": "Kai Sasaki",
+    "license": "MIT",
+    "dependencies": {
+        "@types/node": "^8.10.38",
+        "@types/request-promise-native": "^1.0.15",
+        "commander": "^2.11.0",
+        "dialog-router-api": "0.0.3",
+        "puppeteer": "^1.11.0",
+        "request-promise-native": "^1.0.5",
+        "typescript": "^3.2.2"
+    },
+    "devDependencies": {
+        "puppeteer-tsd": "0.0.2"
+    },
+    "bin": {
+        "siteshot": "bin/huawei-alert"
+    }
+}
