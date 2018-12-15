@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		55A14A6A21C4D02A00B2BF85 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A14A6921C4D02A00B2BF85 /* AppDelegate.swift */; };
+		55A14A6C21C4D02A00B2BF85 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A14A6B21C4D02A00B2BF85 /* ViewController.swift */; };
+		55A14A6F21C4D02A00B2BF85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55A14A6D21C4D02A00B2BF85 /* Main.storyboard */; };
+		55A14A7121C4D02E00B2BF85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55A14A7021C4D02E00B2BF85 /* Assets.xcassets */; };
+		55A14A7421C4D02E00B2BF85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55A14A7221C4D02E00B2BF85 /* LaunchScreen.storyboard */; };
+		55A14A7F21C4D02E00B2BF85 /* HuaweiAlertTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A14A7E21C4D02E00B2BF85 /* HuaweiAlertTests.swift */; };
+		55A14A8A21C4D02E00B2BF85 /* HuaweiAlertUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A14A8921C4D02E00B2BF85 /* HuaweiAlertUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		55A14A7B21C4D02E00B2BF85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55A14A5E21C4D02A00B2BF85 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55A14A6521C4D02A00B2BF85;
+			remoteInfo = HuaweiAlert;
+		};
+		55A14A8621C4D02E00B2BF85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55A14A5E21C4D02A00B2BF85 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55A14A6521C4D02A00B2BF85;
+			remoteInfo = HuaweiAlert;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		55A14A6621C4D02A00B2BF85 /* HuaweiAlert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HuaweiAlert.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		55A14A6921C4D02A00B2BF85 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		55A14A6B21C4D02A00B2BF85 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		55A14A6E21C4D02A00B2BF85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		55A14A7021C4D02E00B2BF85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		55A14A7321C4D02E00B2BF85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		55A14A7521C4D02E00B2BF85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55A14A7A21C4D02E00B2BF85 /* HuaweiAlertTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HuaweiAlertTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		55A14A7E21C4D02E00B2BF85 /* HuaweiAlertTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HuaweiAlertTests.swift; sourceTree = "<group>"; };
+		55A14A8021C4D02E00B2BF85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55A14A8521C4D02E00B2BF85 /* HuaweiAlertUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HuaweiAlertUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		55A14A8921C4D02E00B2BF85 /* HuaweiAlertUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HuaweiAlertUITests.swift; sourceTree = "<group>"; };
+		55A14A8B21C4D02E00B2BF85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55A14A6321C4D02A00B2BF85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55A14A7721C4D02E00B2BF85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55A14A8221C4D02E00B2BF85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55A14A5D21C4D02A00B2BF85 = {
+			isa = PBXGroup;
+			children = (
+				55A14A6821C4D02A00B2BF85 /* HuaweiAlert */,
+				55A14A7D21C4D02E00B2BF85 /* HuaweiAlertTests */,
+				55A14A8821C4D02E00B2BF85 /* HuaweiAlertUITests */,
+				55A14A6721C4D02A00B2BF85 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		55A14A6721C4D02A00B2BF85 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55A14A6621C4D02A00B2BF85 /* HuaweiAlert.app */,
+				55A14A7A21C4D02E00B2BF85 /* HuaweiAlertTests.xctest */,
+				55A14A8521C4D02E00B2BF85 /* HuaweiAlertUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55A14A6821C4D02A00B2BF85 /* HuaweiAlert */ = {
+			isa = PBXGroup;
+			children = (
+				55A14A6921C4D02A00B2BF85 /* AppDelegate.swift */,
+				55A14A6B21C4D02A00B2BF85 /* ViewController.swift */,
+				55A14A6D21C4D02A00B2BF85 /* Main.storyboard */,
+				55A14A7021C4D02E00B2BF85 /* Assets.xcassets */,
+				55A14A7221C4D02E00B2BF85 /* LaunchScreen.storyboard */,
+				55A14A7521C4D02E00B2BF85 /* Info.plist */,
+			);
+			path = HuaweiAlert;
+			sourceTree = "<group>";
+		};
+		55A14A7D21C4D02E00B2BF85 /* HuaweiAlertTests */ = {
+			isa = PBXGroup;
+			children = (
+				55A14A7E21C4D02E00B2BF85 /* HuaweiAlertTests.swift */,
+				55A14A8021C4D02E00B2BF85 /* Info.plist */,
+			);
+			path = HuaweiAlertTests;
+			sourceTree = "<group>";
+		};
+		55A14A8821C4D02E00B2BF85 /* HuaweiAlertUITests */ = {
+			isa = PBXGroup;
+			children = (
+				55A14A8921C4D02E00B2BF85 /* HuaweiAlertUITests.swift */,
+				55A14A8B21C4D02E00B2BF85 /* Info.plist */,
+			);
+			path = HuaweiAlertUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55A14A6521C4D02A00B2BF85 /* HuaweiAlert */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55A14A8E21C4D02E00B2BF85 /* Build configuration list for PBXNativeTarget "HuaweiAlert" */;
+			buildPhases = (
+				55A14A6221C4D02A00B2BF85 /* Sources */,
+				55A14A6321C4D02A00B2BF85 /* Frameworks */,
+				55A14A6421C4D02A00B2BF85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HuaweiAlert;
+			productName = HuaweiAlert;
+			productReference = 55A14A6621C4D02A00B2BF85 /* HuaweiAlert.app */;
+			productType = "com.apple.product-type.application";
+		};
+		55A14A7921C4D02E00B2BF85 /* HuaweiAlertTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55A14A9121C4D02E00B2BF85 /* Build configuration list for PBXNativeTarget "HuaweiAlertTests" */;
+			buildPhases = (
+				55A14A7621C4D02E00B2BF85 /* Sources */,
+				55A14A7721C4D02E00B2BF85 /* Frameworks */,
+				55A14A7821C4D02E00B2BF85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55A14A7C21C4D02E00B2BF85 /* PBXTargetDependency */,
+			);
+			name = HuaweiAlertTests;
+			productName = HuaweiAlertTests;
+			productReference = 55A14A7A21C4D02E00B2BF85 /* HuaweiAlertTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		55A14A8421C4D02E00B2BF85 /* HuaweiAlertUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55A14A9421C4D02E00B2BF85 /* Build configuration list for PBXNativeTarget "HuaweiAlertUITests" */;
+			buildPhases = (
+				55A14A8121C4D02E00B2BF85 /* Sources */,
+				55A14A8221C4D02E00B2BF85 /* Frameworks */,
+				55A14A8321C4D02E00B2BF85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55A14A8721C4D02E00B2BF85 /* PBXTargetDependency */,
+			);
+			name = HuaweiAlertUITests;
+			productName = HuaweiAlertUITests;
+			productReference = 55A14A8521C4D02E00B2BF85 /* HuaweiAlertUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55A14A5E21C4D02A00B2BF85 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "菅原晃平";
+				TargetAttributes = {
+					55A14A6521C4D02A00B2BF85 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					55A14A7921C4D02E00B2BF85 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 55A14A6521C4D02A00B2BF85;
+					};
+					55A14A8421C4D02E00B2BF85 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 55A14A6521C4D02A00B2BF85;
+					};
+				};
+			};
+			buildConfigurationList = 55A14A6121C4D02A00B2BF85 /* Build configuration list for PBXProject "HuaweiAlert" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 55A14A5D21C4D02A00B2BF85;
+			productRefGroup = 55A14A6721C4D02A00B2BF85 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55A14A6521C4D02A00B2BF85 /* HuaweiAlert */,
+				55A14A7921C4D02E00B2BF85 /* HuaweiAlertTests */,
+				55A14A8421C4D02E00B2BF85 /* HuaweiAlertUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55A14A6421C4D02A00B2BF85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55A14A7421C4D02E00B2BF85 /* LaunchScreen.storyboard in Resources */,
+				55A14A7121C4D02E00B2BF85 /* Assets.xcassets in Resources */,
+				55A14A6F21C4D02A00B2BF85 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55A14A7821C4D02E00B2BF85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55A14A8321C4D02E00B2BF85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55A14A6221C4D02A00B2BF85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55A14A6C21C4D02A00B2BF85 /* ViewController.swift in Sources */,
+				55A14A6A21C4D02A00B2BF85 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55A14A7621C4D02E00B2BF85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55A14A7F21C4D02E00B2BF85 /* HuaweiAlertTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55A14A8121C4D02E00B2BF85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55A14A8A21C4D02E00B2BF85 /* HuaweiAlertUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		55A14A7C21C4D02E00B2BF85 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55A14A6521C4D02A00B2BF85 /* HuaweiAlert */;
+			targetProxy = 55A14A7B21C4D02E00B2BF85 /* PBXContainerItemProxy */;
+		};
+		55A14A8721C4D02E00B2BF85 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55A14A6521C4D02A00B2BF85 /* HuaweiAlert */;
+			targetProxy = 55A14A8621C4D02E00B2BF85 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		55A14A6D21C4D02A00B2BF85 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55A14A6E21C4D02A00B2BF85 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		55A14A7221C4D02E00B2BF85 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55A14A7321C4D02E00B2BF85 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		55A14A8C21C4D02E00B2BF85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		55A14A8D21C4D02E00B2BF85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		55A14A8F21C4D02E00B2BF85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HuaweiAlert/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.yyyymmdd.HuaweiAlert;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		55A14A9021C4D02E00B2BF85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HuaweiAlert/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.yyyymmdd.HuaweiAlert;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		55A14A9221C4D02E00B2BF85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HuaweiAlertTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.yyyymmdd.HuaweiAlertTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HuaweiAlert.app/HuaweiAlert";
+			};
+			name = Debug;
+		};
+		55A14A9321C4D02E00B2BF85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HuaweiAlertTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.yyyymmdd.HuaweiAlertTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HuaweiAlert.app/HuaweiAlert";
+			};
+			name = Release;
+		};
+		55A14A9521C4D02E00B2BF85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HuaweiAlertUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.yyyymmdd.HuaweiAlertUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HuaweiAlert;
+			};
+			name = Debug;
+		};
+		55A14A9621C4D02E00B2BF85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HuaweiAlertUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.yyyymmdd.HuaweiAlertUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HuaweiAlert;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55A14A6121C4D02A00B2BF85 /* Build configuration list for PBXProject "HuaweiAlert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55A14A8C21C4D02E00B2BF85 /* Debug */,
+				55A14A8D21C4D02E00B2BF85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55A14A8E21C4D02E00B2BF85 /* Build configuration list for PBXNativeTarget "HuaweiAlert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55A14A8F21C4D02E00B2BF85 /* Debug */,
+				55A14A9021C4D02E00B2BF85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55A14A9121C4D02E00B2BF85 /* Build configuration list for PBXNativeTarget "HuaweiAlertTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55A14A9221C4D02E00B2BF85 /* Debug */,
+				55A14A9321C4D02E00B2BF85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55A14A9421C4D02E00B2BF85 /* Build configuration list for PBXNativeTarget "HuaweiAlertUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55A14A9521C4D02E00B2BF85 /* Debug */,
+				55A14A9621C4D02E00B2BF85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 55A14A5E21C4D02A00B2BF85 /* Project object */;
+}
