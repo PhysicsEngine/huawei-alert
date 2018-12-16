@@ -41,8 +41,12 @@ export class Scraper {
                 'Content-Type': 'application/json'
               }
             };
-            // console.log(options);
+            console.log(`All devices`);
+            macAddresses.map(d => {
+              console.log(`- ${d}`);
+            });
             request.post(options);
+            console.log(`Succeed to notify to ${notification}`);
           });
         });
       });

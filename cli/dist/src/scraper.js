@@ -74,7 +74,12 @@ var Scraper = (function () {
                                         'Content-Type': 'application/json'
                                     }
                                 };
+                                console.log("All devices");
+                                macAddresses.map(function (d) {
+                                    console.log("- " + d);
+                                });
                                 request.post(options);
+                                console.log("Succeed to notify to " + notification);
                             });
                         });
                     });
